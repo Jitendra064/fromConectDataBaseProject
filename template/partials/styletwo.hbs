@@ -1,0 +1,131 @@
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* background: url('../bg2.jpg') no-repeat center center/cover; */
+    background: url('https://media.istockphoto.com/id/1413790486/photo/abstract-dark-blue-background-silk-satin-navy-blue-color-elegant-background.jpg?b=1&s=612x612&w=0&k=20&c=3hXRA2771Zo1rgcqv9S4ZepOBuu99ax31yGhNAJBl5k=') no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    max-height:100vh;
+    background: transparent;
+    border: 2px solid rgba(225 ,225, 255 ,0.5);
+    border-radius: 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+
+
+}
+.form-value{
+   margin: 15px;
+}
+h2{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 1px solid #fff;
+
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    pointer-events: none;
+    font-size: 1rem;
+    transition: .6s;
+}
+input:focus ~ label,
+input:valid ~ label{
+ top: -3px;
+}
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+   color: #fff;
+   font-size: 1.2rem;
+   top: 20px;
+}
+.forget{
+    margin: -15px 0 15px;
+    font-size: 1rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.forget label input{
+    margin-right: 3pxpx;
+}
+
+.forget  a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 8px;
+}
+.forget a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+}
+button:hover{
+    background: rgb(27, 21, 1);
+    color: #fff;
+}
+.register{
+    padding-top: 1.5rem;
+    text-align: center;
+    color: #fff;
+}
+.register p a{
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgb(31, 238, 245);
+    text-decoration: none;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+.register p a:hover{
+
+    color: #fff;
+    text-decoration: underline;
+}
+@media (max-width) {
+    
+}
+</style>
